@@ -1,9 +1,10 @@
 <script setup>
-import {addTodo, removeTodo} from './components/todoList.vue'
+import todos from './components/todoList.vue'
+
 </script>
 
 
 <template>
-  <todoList>dsfdgfdgdfasd</todoList>
+  <todoList></todoList>
 </template>
 
