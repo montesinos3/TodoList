@@ -22,6 +22,7 @@ let filteredTodos = todos //computed(() => {
 
 function addTodo() {
   let aux = { id: id++, text: newTodo.value, done: false }
+  let response
   fetch("http://localhost:5153/api/TodoItems", {
     method: 'POST',
     headers: {
