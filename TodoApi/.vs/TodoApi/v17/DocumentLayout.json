@@ -50,8 +50,7 @@
               "RelativeToolTip": "TodoApi\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-11T08:35:42.232Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-11T08:35:42.232Z"
             },
             {
               "$type": "Document",
@@ -63,8 +62,7 @@
               "RelativeToolTip": "TodoApi\\WeatherForecast.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAQwAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T14:40:01.261Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T14:40:01.261Z"
             },
             {
               "$type": "Document",
@@ -76,8 +74,7 @@
               "RelativeToolTip": "TodoApi\\Models\\TodoItemDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T09:46:58.655Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T09:46:58.655Z"
             },
             {
               "$type": "Document",
@@ -87,7 +84,7 @@
               "RelativeDocumentMoniker": "TodoApi\\Controllers\\TodoItemsController.cs",
               "ToolTip": "C:\\Users\\Jorge\\OneDrive\\Escritorio\\Universidad\\Practicas\\TodoList\\TodoApi\\TodoApi\\Controllers\\TodoItemsController.cs",
               "RelativeToolTip": "TodoApi\\Controllers\\TodoItemsController.cs",
-              "ViewState": "AQIAAEoAAAAAAAAAAAAUwGMAAAAEAAAA",
+              "ViewState": "AQIAAC0AAAAAAAAAAADwvzMAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-10T09:01:23.218Z",
               "EditorCaption": ""
@@ -102,8 +99,7 @@
               "RelativeToolTip": "TodoApi\\Models\\TodoContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T08:57:13.921Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T08:57:13.921Z"
             },
             {
               "$type": "Document",
@@ -115,8 +111,7 @@
               "RelativeToolTip": "TodoApi\\Models\\TodoItem.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T08:55:43.58Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T08:55:43.58Z"
             },
             {
               "$type": "Document",
@@ -128,8 +123,7 @@
               "RelativeToolTip": "TodoApi\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T08:18:15.019Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T08:18:15.019Z"
             }
           ]
         }
