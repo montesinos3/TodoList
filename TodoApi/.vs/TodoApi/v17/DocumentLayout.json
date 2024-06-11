@@ -1,38 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jormo\\source\\repos\\TodoApi\\",
+  "WorkspaceRootPath": "C:\\Users\\Jorge\\OneDrive\\Escritorio\\Universidad\\Practicas\\TodoList\\TodoApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AD7E28C0-0CEB-4C69-833C-29DCF8A88D14}|TodoApi\\TodoApi.csproj|c:\\users\\jormo\\source\\repos\\todoapi\\todoapi\\controllers\\todoitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD7E28C0-0CEB-4C69-833C-29DCF8A88D14}|TodoApi\\TodoApi.csproj|solutionrelative:todoapi\\controllers\\todoitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD7E28C0-0CEB-4C69-833C-29DCF8A88D14}|TodoApi\\TodoApi.csproj|c:\\users\\jormo\\source\\repos\\todoapi\\todoapi\\models\\todocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD7E28C0-0CEB-4C69-833C-29DCF8A88D14}|TodoApi\\TodoApi.csproj|solutionrelative:todoapi\\models\\todocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD7E28C0-0CEB-4C69-833C-29DCF8A88D14}|TodoApi\\TodoApi.csproj|c:\\users\\jormo\\source\\repos\\todoapi\\todoapi\\models\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD7E28C0-0CEB-4C69-833C-29DCF8A88D14}|TodoApi\\TodoApi.csproj|solutionrelative:todoapi\\models\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD7E28C0-0CEB-4C69-833C-29DCF8A88D14}|TodoApi\\TodoApi.csproj|c:\\users\\jormo\\source\\repos\\todoapi\\todoapi\\models\\todoitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AD7E28C0-0CEB-4C69-833C-29DCF8A88D14}|TodoApi\\TodoApi.csproj|c:\\users\\jorge\\onedrive\\escritorio\\universidad\\practicas\\todolist\\todoapi\\todoapi\\models\\todoitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD7E28C0-0CEB-4C69-833C-29DCF8A88D14}|TodoApi\\TodoApi.csproj|solutionrelative:todoapi\\models\\todoitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD7E28C0-0CEB-4C69-833C-29DCF8A88D14}|TodoApi\\TodoApi.csproj|c:\\users\\jormo\\source\\repos\\todoapi\\todoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD7E28C0-0CEB-4C69-833C-29DCF8A88D14}|TodoApi\\TodoApi.csproj|solutionrelative:todoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD7E28C0-0CEB-4C69-833C-29DCF8A88D14}|TodoApi\\TodoApi.csproj|c:\\users\\jormo\\source\\repos\\todoapi\\todoapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AD7E28C0-0CEB-4C69-833C-29DCF8A88D14}|TodoApi\\TodoApi.csproj|c:\\users\\jorge\\onedrive\\escritorio\\universidad\\practicas\\todolist\\todoapi\\todoapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD7E28C0-0CEB-4C69-833C-29DCF8A88D14}|TodoApi\\TodoApi.csproj|solutionrelative:todoapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD7E28C0-0CEB-4C69-833C-29DCF8A88D14}|TodoApi\\TodoApi.csproj|c:\\users\\jormo\\source\\repos\\todoapi\\todoapi\\todoapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{AD7E28C0-0CEB-4C69-833C-29DCF8A88D14}|TodoApi\\TodoApi.csproj|solutionrelative:todoapi\\todoapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{AD7E28C0-0CEB-4C69-833C-29DCF8A88D14}|TodoApi\\TodoApi.csproj|c:\\users\\jorge\\onedrive\\escritorio\\universidad\\practicas\\todolist\\todoapi\\todoapi\\controllers\\todoitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD7E28C0-0CEB-4C69-833C-29DCF8A88D14}|TodoApi\\TodoApi.csproj|solutionrelative:todoapi\\controllers\\todoitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD7E28C0-0CEB-4C69-833C-29DCF8A88D14}|TodoApi\\TodoApi.csproj|c:\\users\\jormo\\source\\repos\\todoapi\\todoapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{AD7E28C0-0CEB-4C69-833C-29DCF8A88D14}|TodoApi\\TodoApi.csproj|solutionrelative:todoapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{AD7E28C0-0CEB-4C69-833C-29DCF8A88D14}|TodoApi\\TodoApi.csproj|c:\\users\\jorge\\onedrive\\escritorio\\universidad\\practicas\\todolist\\todoapi\\todoapi\\models\\todocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD7E28C0-0CEB-4C69-833C-29DCF8A88D14}|TodoApi\\TodoApi.csproj|solutionrelative:todoapi\\models\\todocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD7E28C0-0CEB-4C69-833C-29DCF8A88D14}|TodoApi\\TodoApi.csproj|c:\\users\\jorge\\onedrive\\escritorio\\universidad\\practicas\\todolist\\todoapi\\todoapi\\models\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD7E28C0-0CEB-4C69-833C-29DCF8A88D14}|TodoApi\\TodoApi.csproj|solutionrelative:todoapi\\models\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD7E28C0-0CEB-4C69-833C-29DCF8A88D14}|TodoApi\\TodoApi.csproj|c:\\users\\jorge\\onedrive\\escritorio\\universidad\\practicas\\todolist\\todoapi\\todoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD7E28C0-0CEB-4C69-833C-29DCF8A88D14}|TodoApi\\TodoApi.csproj|solutionrelative:todoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,11 +38,24 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\Jorge\\OneDrive\\Escritorio\\Universidad\\Practicas\\TodoList\\TodoApi\\TodoApi\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "TodoApi\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\Jorge\\OneDrive\\Escritorio\\Universidad\\Practicas\\TodoList\\TodoApi\\TodoApi\\WeatherForecast.cs",
+              "RelativeToolTip": "TodoApi\\WeatherForecast.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T14:40:01.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "TodoItemDTO.cs",
-              "DocumentMoniker": "C:\\Users\\jormo\\source\\repos\\TodoApi\\TodoApi\\Models\\TodoItemDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Jorge\\OneDrive\\Escritorio\\Universidad\\Practicas\\TodoList\\TodoApi\\TodoApi\\Models\\TodoItemDTO.cs",
               "RelativeDocumentMoniker": "TodoApi\\Models\\TodoItemDTO.cs",
-              "ToolTip": "C:\\Users\\jormo\\source\\repos\\TodoApi\\TodoApi\\Models\\TodoItemDTO.cs",
+              "ToolTip": "C:\\Users\\Jorge\\OneDrive\\Escritorio\\Universidad\\Practicas\\TodoList\\TodoApi\\TodoApi\\Models\\TodoItemDTO.cs",
               "RelativeToolTip": "TodoApi\\Models\\TodoItemDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -59,90 +64,51 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "TodoItemsController.cs",
-              "DocumentMoniker": "C:\\Users\\jormo\\source\\repos\\TodoApi\\TodoApi\\Controllers\\TodoItemsController.cs",
+              "DocumentMoniker": "C:\\Users\\Jorge\\OneDrive\\Escritorio\\Universidad\\Practicas\\TodoList\\TodoApi\\TodoApi\\Controllers\\TodoItemsController.cs",
               "RelativeDocumentMoniker": "TodoApi\\Controllers\\TodoItemsController.cs",
-              "ToolTip": "C:\\Users\\jormo\\source\\repos\\TodoApi\\TodoApi\\Controllers\\TodoItemsController.cs",
+              "ToolTip": "C:\\Users\\Jorge\\OneDrive\\Escritorio\\Universidad\\Practicas\\TodoList\\TodoApi\\TodoApi\\Controllers\\TodoItemsController.cs",
               "RelativeToolTip": "TodoApi\\Controllers\\TodoItemsController.cs",
-              "ViewState": "AQIAAEgAAAAAAAAAAAAowEsAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T09:01:23.218Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T09:01:23.218Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "TodoContext.cs",
-              "DocumentMoniker": "C:\\Users\\jormo\\source\\repos\\TodoApi\\TodoApi\\Models\\TodoContext.cs",
+              "DocumentMoniker": "C:\\Users\\Jorge\\OneDrive\\Escritorio\\Universidad\\Practicas\\TodoList\\TodoApi\\TodoApi\\Models\\TodoContext.cs",
               "RelativeDocumentMoniker": "TodoApi\\Models\\TodoContext.cs",
-              "ToolTip": "C:\\Users\\jormo\\source\\repos\\TodoApi\\TodoApi\\Models\\TodoContext.cs",
+              "ToolTip": "C:\\Users\\Jorge\\OneDrive\\Escritorio\\Universidad\\Practicas\\TodoList\\TodoApi\\TodoApi\\Models\\TodoContext.cs",
               "RelativeToolTip": "TodoApi\\Models\\TodoContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T08:57:13.921Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TodoItem.cs",
-              "DocumentMoniker": "C:\\Users\\jormo\\source\\repos\\TodoApi\\TodoApi\\Models\\TodoItem.cs",
-              "RelativeDocumentMoniker": "TodoApi\\Models\\TodoItem.cs",
-              "ToolTip": "C:\\Users\\jormo\\source\\repos\\TodoApi\\TodoApi\\Models\\TodoItem.cs",
-              "RelativeToolTip": "TodoApi\\Models\\TodoItem.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T08:55:43.58Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TodoApi",
-              "DocumentMoniker": "C:\\Users\\jormo\\source\\repos\\TodoApi\\TodoApi\\TodoApi.csproj",
-              "RelativeDocumentMoniker": "TodoApi\\TodoApi.csproj",
-              "ToolTip": "C:\\Users\\jormo\\source\\repos\\TodoApi\\TodoApi\\TodoApi.csproj",
-              "RelativeToolTip": "TodoApi\\TodoApi.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-10T08:32:41.578Z"
+              "WhenOpened": "2024-06-10T08:57:13.921Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\jormo\\source\\repos\\TodoApi\\TodoApi\\Program.cs",
-              "RelativeDocumentMoniker": "TodoApi\\Program.cs",
-              "ToolTip": "C:\\Users\\jormo\\source\\repos\\TodoApi\\TodoApi\\Program.cs",
-              "RelativeToolTip": "TodoApi\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAApAAAA",
+              "Title": "TodoItem.cs",
+              "DocumentMoniker": "C:\\Users\\Jorge\\OneDrive\\Escritorio\\Universidad\\Practicas\\TodoList\\TodoApi\\TodoApi\\Models\\TodoItem.cs",
+              "RelativeDocumentMoniker": "TodoApi\\Models\\TodoItem.cs",
+              "ToolTip": "C:\\Users\\Jorge\\OneDrive\\Escritorio\\Universidad\\Practicas\\TodoList\\TodoApi\\TodoApi\\Models\\TodoItem.cs",
+              "RelativeToolTip": "TodoApi\\Models\\TodoItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T08:18:15.019Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\jormo\\source\\repos\\TodoApi\\TodoApi\\appsettings.json",
-              "RelativeDocumentMoniker": "TodoApi\\appsettings.json",
-              "ToolTip": "C:\\Users\\jormo\\source\\repos\\TodoApi\\TodoApi\\appsettings.json",
-              "RelativeToolTip": "TodoApi\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-10T08:16:57.497Z"
+              "WhenOpened": "2024-06-10T08:55:43.58Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "C:\\Users\\jormo\\source\\repos\\TodoApi\\TodoApi\\WeatherForecast.cs",
-              "RelativeDocumentMoniker": "TodoApi\\WeatherForecast.cs",
-              "ToolTip": "C:\\Users\\jormo\\source\\repos\\TodoApi\\TodoApi\\WeatherForecast.cs",
-              "RelativeToolTip": "TodoApi\\WeatherForecast.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAsAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Jorge\\OneDrive\\Escritorio\\Universidad\\Practicas\\TodoList\\TodoApi\\TodoApi\\Program.cs",
+              "RelativeDocumentMoniker": "TodoApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Jorge\\OneDrive\\Escritorio\\Universidad\\Practicas\\TodoList\\TodoApi\\TodoApi\\Program.cs",
+              "RelativeToolTip": "TodoApi\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T08:16:16.332Z"
+              "WhenOpened": "2024-06-10T08:18:15.019Z"
             }
           ]
         }

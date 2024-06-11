@@ -1,10 +1,9 @@
 <script setup>
 import todos from './components/todoList.vue'
-
 </script>
 
 
 <template>
-  <todoList></todoList>
+  <todos></todos>
 </template>
 
