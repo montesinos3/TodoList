@@ -1,52 +1,48 @@
 <script setup>
-import { computed } from 'vue'
-let id = 0
+import { ref, computed, onMounted } from 'vue'
 
-const newTodo = ''
-const hideCompleted = false
-// const todos = ref([
-//   { id: id++, text: 'Learn HTML', done: true },
-//   { id: id++, text: 'Learn JavaScript', done: true },
-//   { id: id++, text: 'Learn Vue', done: false }
-// ])
-const res = fetch("http://localhost:5153/api/TodoItems", {mode: 'no-cors'}).catch(error=>alert(`Error al cargar: ${error}`))
+let newTodo = ref('')
+const hideCompleted = ref(false)
 
+let todos = ref([])
+onMounted(async () => {
+    let res = await fetch("http://localhost:5153/api/TodoItems").catch(error=>alert(`Error al cargar: ${error}`))
+    let data = await res.json()
+    todos.value = data
+})
 
-let todos = res.json
+ let filteredTodos = computed(() => {
+    return hideCompleted.value
+      ? todos.value.filter((t) => !t.isComplete)
+      : todos.value
+ })
 
-let filteredTodos = todos //computed(() => {
-//   return hideCompleted.value
-//     ? todos.value.filter((t) => !t.done)
-//     : todos.value
-// })
-
-function addTodo() {
-  let aux = { id: id++, text: newTodo.value, done: false }
-  let response
-  fetch("http://localhost:5153/api/TodoItems", {
+async function addTodo() {
+  let aux = { name: newTodo.value, isComplete: false }
+  let json={
     method: 'POST',
     headers: {
       'Content-Type': 'application/json;charset=utf-8'
     },
-    body: JSON.stringify(aux),
-    mode: 'no-cors'
-  }).then((response=>response.json))
-    .catch(error=>alert(error))
-  
-  todos = response
-  newTodo.value=""
+    body: JSON.stringify(aux)
+  }
+
+  let response = await fetch("http://localhost:5153/api/TodoItems", json).catch(error=>alert(error))
+  let data = await response.json()
+  todos.value.push(data)
+  newTodo.value=''
 }
 
-function removeTodo(todo) {
-  const res = fetch("http://localhost:5153/api/TodoItems", {
+async function removeTodo(id) {
+  const res = await fetch(`http://localhost:5153/api/TodoItems/${id}`, {
     method: 'DELETE',
-    headers: {
-      'Content-Type': 'application/json;charset=utf-8'
-    },
-    body: JSON.stringify(todo.value),
-    mode: 'no-cors'
   })
-  todos = res.json
+  if(res.status==204 || res.status==200){
+    //eliminar todo por id
+    todos.value = todos.value.filter(t=>t.id != id)
+  } else{
+    alert("Error al eliminar todo")
+  }
 }
 </script>
 
@@ -57,9 +53,9 @@ function removeTodo(todo) {
     </form>
     <ul>
         <li v-for="todo in filteredTodos" :key="todo.id">
-        <input type="checkbox" v-model="todo.done"> 
-        <span :class="{ done: todo.done }">{{ todo.text }}</span>
-        <button @click="removeTodo(todo)">X</button> 
+        <input type="checkbox" v-model="todo.isComplete"> 
+        <span :class="{ done: todo.isComplete }">{{ todo.name }}</span> 
+        <button @click="removeTodo(todo.id)">X</button> 
         </li>
     </ul>
     <button @click="hideCompleted = !hideCompleted">
