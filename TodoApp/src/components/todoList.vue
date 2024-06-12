@@ -108,6 +108,7 @@ async function editTodo(todo) {
 </template>
 
 <style scoped>  
+
 .delete{
   margin-left: 5px;
   border-radius: 100%;
