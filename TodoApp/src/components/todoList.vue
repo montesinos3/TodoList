@@ -78,32 +78,45 @@ async function editTodo(todo) {
 </script>
 
 <template>
-  <form @submit.prevent="addTodo">
-    <input v-model="newTodo" required placeholder="new todo">
-    <button>Add Todo</button> 
-  </form>
-    <ul>
-        <li v-for="todo in filteredTodos" :key="todo.id">
-        <input type="checkbox" v-model="todo.isComplete"> 
-        <span :class="{ done: todo.isComplete }">{{ todo.name }}</span> 
-        <button @click="removeTodo(todo.id)">X</button> 
-        <button @click="showEdit[todo.id] = !showEdit[todo.id]">
-          <img src="../../icons/lapiz.png" alt="edit">
-        </button> 
-        <form @submit.prevent="editTodo(todo)" v-show="showEdit[todo.id]">
-          <input v-model="editedTodo[todo.id]" required placeholder="Edit your todo" > 
+  <h1>¡Bienvenido a tu lista de tareas!</h1>
+    <div>
+      <form @submit.prevent="addTodo">
+        <input v-model="newTodo" required placeholder="new todo">
+        <button>Add Todo</button> 
+      </form>
+      <ul>
+          <li v-for="todo in filteredTodos" :key="todo.id">
+          <input type="checkbox" v-model="todo.isComplete"> 
+          <span :class="{ done: todo.isComplete }">{{ todo.name }}</span> 
+          <button @click="removeTodo(todo.id)">X</button> 
+          <button @click="showEdit[todo.id] = !showEdit[todo.id]">
+            <img src="../../icons/lapiz.png" alt="edit">
+          </button> 
+          <form @submit.prevent="editTodo(todo)" v-show="showEdit[todo.id]">
+            <input v-model="editedTodo[todo.id]" required placeholder="Edit your todo" > 
+            
+            <button>Edit Todo</button> 
+          </form>
           
-          <button>Edit Todo</button> 
-        </form>
-        
-        </li>
-    </ul>
-    <button @click="hideCompleted = !hideCompleted">
-        {{ hideCompleted ? 'Show all' : 'Hide completed' }}
-    </button>
+          </li>
+      </ul>
+      <button @click="hideCompleted = !hideCompleted">
+          {{ hideCompleted ? 'Show all' : 'Hide completed' }}
+      </button>
+    </div>
 </template>
 
 <style scoped>
+div{
+  margin: 0%;
+  margin-top: 100px;
+  padding: 0%;
+  align-content: center;
+  place-items: center;
+}
+span{
+  color:whitesmoke;
+}
 .done {
   text-decoration: line-through;
 }
@@ -111,4 +124,22 @@ img{
   width:12px;
   height: 12px;
 }
+
+h1{
+  color:whitesmoke;
+  max-height: 50px;
+}
+
+input{
+  background-color: rgb(95, 252, 210);
+}
+
+input::placeholder{
+  color:rgb(84, 88, 101)
+}
+
+button{
+  background-color:rgb(203, 80, 255)
+}
+
 </style>

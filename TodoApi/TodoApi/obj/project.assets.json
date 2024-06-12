@@ -6748,19 +6748,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Jorge\\.nuget\\packages\\": {}
+    "C:\\Users\\jormo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jorge\\OneDrive\\Escritorio\\Universidad\\Practicas\\TodoList\\TodoApi\\TodoApi\\TodoApi.csproj",
+      "projectUniqueName": "C:\\Users\\jormo\\Desktop\\jorge\\Practicas\\TodoApp\\TodoApi\\TodoApi\\TodoApi.csproj",
       "projectName": "TodoApi",
-      "projectPath": "C:\\Users\\Jorge\\OneDrive\\Escritorio\\Universidad\\Practicas\\TodoList\\TodoApi\\TodoApi\\TodoApi.csproj",
-      "packagesPath": "C:\\Users\\Jorge\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jorge\\OneDrive\\Escritorio\\Universidad\\Practicas\\TodoList\\TodoApi\\TodoApi\\obj\\",
+      "projectPath": "C:\\Users\\jormo\\Desktop\\jorge\\Practicas\\TodoApp\\TodoApi\\TodoApi\\TodoApi.csproj",
+      "packagesPath": "C:\\Users\\jormo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jormo\\Desktop\\jorge\\Practicas\\TodoApp\\TodoApi\\TodoApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Jorge\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jormo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
