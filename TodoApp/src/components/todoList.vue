@@ -83,8 +83,8 @@ async function editTodo(todo) {
   </h1>
   <div>
     <form @submit.prevent="addTodo">
-      <input v-model="newTodo" required placeholder="new todo">
-      <button>Add Todo</button> 
+      <input v-model="newTodo" required placeholder="Nueva tarea">
+      <button>Añadir</button> 
     </form>
     <ul>
         <li v-for="todo in filteredTodos" :key="todo.id">
@@ -97,13 +97,13 @@ async function editTodo(todo) {
         <form @submit.prevent="editTodo(todo)" v-show="showEdit[todo.id]">
           <input v-model="editedTodo[todo.id]" required placeholder="Edit your todo" > 
           
-          <button>Edit Todo</button> 
+          <button>Editar Tarea</button> 
         </form>
         
         </li>
     </ul>
     <button @click="hideCompleted = !hideCompleted">
-        {{ hideCompleted ? 'Show all' : 'Hide completed' }}
+        {{ hideCompleted ? 'Mostrar todas' : 'Mostrar solo pendientes' }}
     </button>
   </div>
 </template>
