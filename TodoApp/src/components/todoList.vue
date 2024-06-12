@@ -81,34 +81,47 @@ async function editTodo(todo) {
   <h1>
     ¡Bienvenido a tu lista de tareas!
   </h1>
-  <div>
+  <div class="mx-5 px-5">
     <form @submit.prevent="addTodo">
       <input v-model="newTodo" required placeholder="Nueva tarea">
-      <button>Añadir</button> 
+      <button class="btn">Añadir</button> 
     </form>
     <ul>
         <li v-for="todo in filteredTodos" :key="todo.id">
         <input type="checkbox" v-model="todo.isComplete"> 
         <span :class="{ done: todo.isComplete }">{{ todo.name }}</span> 
-        <button @click="removeTodo(todo.id)">X</button> 
-        <button @click="showEdit[todo.id] = !showEdit[todo.id]">
+        <button class="delete" @click="removeTodo(todo.id)">X</button> 
+        <button class="edit" @click="showEdit[todo.id] = !showEdit[todo.id]">
           <img src="../../icons/lapiz.png" alt="edit">
         </button> 
-        <form @submit.prevent="editTodo(todo)" v-show="showEdit[todo.id]">
+        <form @submit.prevent="editTodo(todo)" v-show="showEdit[todo.id]" >
           <input v-model="editedTodo[todo.id]" required placeholder="Edit your todo" > 
-          
-          <button>Editar Tarea</button> 
+          <button class="btn">Editar</button> 
         </form>
         
         </li>
     </ul>
-    <button @click="hideCompleted = !hideCompleted">
+    <button @click="hideCompleted = !hideCompleted" class="btn btn-primar">
         {{ hideCompleted ? 'Mostrar todas' : 'Mostrar solo pendientes' }}
     </button>
   </div>
 </template>
 
-<style scoped>
+<style scoped>  
+.delete{
+  margin-left: 5px;
+  border-radius: 100%;
+  border:0%;
+  background-color:rgb(255, 59, 59);
+  text-align: center;
+  color: rgb(21, 18, 18);
+  border: none;
+}
+.edit{
+  background: transparent;
+  border: none;
+}
+
 div{
   margin: 0%;
   margin-top: 100px;
@@ -124,8 +137,8 @@ span{
 }
 
 button img{
-  width:12px;
-  height: 12px;
+  width:15px;
+  height: 15px;
 }
 
 h1{
@@ -137,6 +150,7 @@ input{
   background-color: rgb(251, 135, 255);
   border-color: rgb(255, 45, 203);
   border-style: inset;
+  border-radius: 5%;
 }
 
 input::placeholder{
@@ -144,7 +158,7 @@ input::placeholder{
 }
 
 button{
-  background-color:rgb(203, 80, 255)
+  background-color:rgb(203, 80, 255);
 }
 
 </style>
